@@ -1,32 +1,42 @@
-# Il Tuo Coach - Sistema di Gestione Prenotazioni Fitness
+**TicTacToe Ultimate - React App**
 
-Questo progetto nasce dall'esigenza di offrire ai Personal Trainer e ai loro clienti uno strumento diretto e professionale per la gestione degli appuntamenti. Si tratta di una piattaforma Full-Stack che permette di automatizzare la prenotazione delle sessioni di allenamento, eliminando la confusione dei messaggi manuali.
+This project was bootstrapped with Create React App.
 
-## Cosa fa l'applicazione
+### Available Scripts:
 
-L'app è divisa in un'area pubblica per l'accesso e un'area riservata per l'atleta. Una volta effettuato il login, l'utente può:
-- Consultare la propria disponibilità e scegliere data e ora per il prossimo allenamento.
-- Visualizzare un riepilogo cronologico di tutte le sessioni già prenotate.
-- Gestire i propri imprevisti annullando le prenotazioni direttamente dalla dashboard.
+In the project directory, you can run the following commands:
 
-## Tecnologie utilizzate
+* **`npm start`**
+  Runs the app in development mode.
+  Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  The page will reload when you make changes, and any lint errors will be shown in the console.
 
-Per lo sviluppo ho scelto uno stack moderno che garantisce velocità e scalabilità:
-- Frontend: React.js con un design personalizzato in Dark Mode per un'esperienza utente premium.
-- Backend: Node.js ed Express per la gestione delle API e della logica di business.
-- Database: MySQL per la persistenza dei dati relativi a utenti e appuntamenti.
+* **`npm test`**
+  Launches the test runner in interactive watch mode.
+  See the section about running tests for more information.
 
-## Istruzioni per l'installazione locale
+* **`npm run build`**
+  Builds the app for production in the `build` folder.
+  It correctly bundles React in production mode and optimizes the build for the best performance.
+  The build is minified, and the filenames include hashes.
+  Your app is ready to be deployed!
 
-Se vuoi testare il progetto sul tuo computer, segui questi passaggi:
+* **`npm run eject`**
+  *Note: This is a one-way operation. Once you eject, you can't go back!*
+  If you're not satisfied with the build tool and configuration choices, you can eject at any time.
+  This command will remove the single build dependency from your project and copy all configuration files (webpack, Babel, ESLint, etc.) directly into your project, giving you full control over them. All commands except eject will still work, but they will point to the copied scripts, allowing you to tweak them as needed.
+  You don’t have to eject unless you really need to customize your configuration.
 
-1. Setup del Database:
-Avvia MySQL (tramite XAMPP o simili) e crea un database chiamato "gym_db". Assicurati di creare le tabelle per gli utenti e le prenotazioni come definito nel codice del server.
+### Learn More:
 
-2. Installazione delle dipendenze:
-È necessario installare i pacchetti sia per il server che per il client. Apri il terminale e digita:
-- Per il server: cd server && npm install
-- Per il client: cd client && npm install
+* You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs).
+* To learn React, check out the [React documentation](https://reactjs.org/docs).
 
-3. Avvio:
-Una volta installate le dipendenze, avvia il server con "nodemon server.js" e il frontend con "npm start". L'applicazione sarà raggiungibile nel browser all'indirizzo localhost:3000.
+### Topics Covered:
+
+* **Code Splitting:** [Learn More](https://facebook.github.io/create-react-app/docs/code-splitting)
+* **Analyzing the Bundle Size:** [Learn More](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* **Making a Progressive Web App:** [Learn More](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* **Advanced Configuration:** [Learn More](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* **Deployment:** [Learn More](https://facebook.github.io/create-react-app/docs/deployment)
+* **`npm run build` fails to minify:** [Learn More](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
