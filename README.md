@@ -26,17 +26,3 @@ In the project directory, you can run the following commands:
   If you're not satisfied with the build tool and configuration choices, you can eject at any time.
   This command will remove the single build dependency from your project and copy all configuration files (webpack, Babel, ESLint, etc.) directly into your project, giving you full control over them. All commands except eject will still work, but they will point to the copied scripts, allowing you to tweak them as needed.
   You don’t have to eject unless you really need to customize your configuration.
-
-### Learn More:
-
-* You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs).
-* To learn React, check out the [React documentation](https://reactjs.org/docs).
-
-### Topics Covered:
-
-* **Code Splitting:** [Learn More](https://facebook.github.io/create-react-app/docs/code-splitting)
-* **Analyzing the Bundle Size:** [Learn More](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-* **Making a Progressive Web App:** [Learn More](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-* **Advanced Configuration:** [Learn More](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-* **Deployment:** [Learn More](https://facebook.github.io/create-react-app/docs/deployment)
-* **`npm run build` fails to minify:** [Learn More](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
